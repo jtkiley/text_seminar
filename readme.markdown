@@ -100,15 +100,27 @@ This file is much more specific about particular software versions, and it is la
 I include it for documentation reasons, but you should generally use the more general (i.e. compatible) `environment.yml`.
 
 
-### Install the Jupyter Lab Extension for Plotly
+### Install the Jupyter Lab Extension for Plot.ly
 
-To be added.
+1. Open a terminal (on Windows, use the prompt labeled either "Anaconda Prompt" or "Anaconda (64-bit)" in the start menu).
+1. Activate the `tapp` environment using the command `conda activate tapp`.
+1. Install the extensions using these commands:
+
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
+jupyter labextension install jupyterlab-plotly@1.4.0 --no-build
+jupyter labextension install plotlywidget@1.4.0 --no-build
+jupyter lab build
+
+```
+
+**Note:** On my desktop, the last command takes about six minutes to complete, so give it time. If you see any errors relating to memory, you may need to use some additional commands, shown in the [plot.ly getting started](https://plot.ly/python/getting-started/) document. I did not need anything other than the commands above, though.
 
 
 ### Install TextBlob text corpora and spacy word models.
 
 1. Open a terminal (on Windows, use the prompt labeled either "Anaconda Prompt" or "Anaconda (64-bit)" in the start menu).
-1. Activate the `tapp` environment using the command `conda activate workshop`.
+1. Activate the `tapp` environment using the command `conda activate tapp`.
 1. Install the corpora using the command `python -m textblob.download_corpora`. There may be warnings or errors that are not relevant for our purposes, but you should see a series of successful downloads.
 1. Install the spacy English models using the command `python -m spacy download en_core_web_lg`.
 
