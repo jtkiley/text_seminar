@@ -71,14 +71,22 @@ Please note that the Keynote slides are the ones actually presented.
 Also, there is an `environment.yml` file for setting up your Anaconda environment, using the instructions below.
 
 
-## Install software
+## Preparing for the course
+
+Before the first meeting, please complete the following.
+If you encounter issues, get as far as you can, and we will work through them in class.
+
+**Please note:** It is best to install (and work with) this software on a physical computer (i.e. not virtualized) that is not locked down with IT permissions.
+
+
+### Install software
 
 1. Install [Anaconda, Python 3.7 version](https://www.anaconda.com/distribution/).
 1. (optional, but encouraged) Install Microsoft Visual Studio Code. The Anaconda installer asks if you would like to install it.
 1. (experts-only alternative) Install miniconda instead of the GUI version. While there are direct download versions, you would typically use a package manager (e.g., brew on macOS, apt on Ubuntu). Similarly, you could install VS Code with your package manager as well.
 
 
-## Importing the Anaconda environment.
+### Importing the Anaconda environment.
 
 1. Open the Anaconda Navigator app.
 1. On the left, click Environment.
@@ -92,12 +100,12 @@ This file is much more specific about particular software versions, and it is la
 I include it for documentation reasons, but you should generally use the more general (i.e. compatible) `environment.yml`.
 
 
-## Install the Jupyter Lab Extension for Plotly
+### Install the Jupyter Lab Extension for Plotly
 
 To be added.
 
 
-## Install TextBlob text corpora and spacy word models.
+### Install TextBlob text corpora and spacy word models.
 
 1. Open a terminal (on Windows, use the prompt labeled either "Anaconda Prompt" or "Anaconda (64-bit)" in the start menu).
 1. Activate the `tapp` environment using the command `conda activate workshop`.
