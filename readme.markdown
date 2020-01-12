@@ -119,3 +119,14 @@ Jason T. Kiley is an Assistant Professor and Spears Fellow at Oklahoma State Uni
 His research examines the interplay of audience perceptions of firms, impression management, and their associations with outcomes, including recent publications in the Academy of Management Journal and Strategic Management Journal.
 As part of his work, he works to advance the use of software to increase the range, efficiency, and rigor of conducting empirical research.
 He is a co-organizer of the annual AOM Content Analysis PDW, and his published and in-progress work often uses state-of-the-art content analysis techniques, including recent work with semantic text analysis and machine learning.
+
+
+## Course details
+
+|  |  |
+------|----------
+University | Oklahoma State University
+Semester | Spring 2020
+Schedule | Thursday 2p-4:45p
+Classroom | GAB 435
+CRN | 31214
