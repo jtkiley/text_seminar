@@ -1,11 +1,24 @@
 # BADM 6100: Text Analysis: Planning to Publication
 
+## Overview
+
+This course is designed to help students learn modern text analysis techniques, from planning a study to publication.
+The topics will include a streamlined set of data science prerequisites, understanding how text becomes data, familiarization with some advanced techniques, and in-depth coverage of papers that utilize various techniques.
+
+Text analysis continues to grow in use in macro research (e.g., firm impression management, media narratives), and has interesting emerging work in micro settings (e.g., unobtrusive measures of the big 5, emotional content of transcripts). As data access expands both at the macro (e.g., earnings call transcripts) and micro (e.g., group work tools like Slack and Microsoft Teams) levels, researchers with this skillset can ask and answer new and interesting theoretical questions.
+
+
+## Prerequisites
+
+The skill requirements assume essentially no prior training, though reasonable spreadsheet skills and some familiarity with one of the commonly--used commercial statistical systems (in either micro or macro work) is helpful.
+
+
+## Schedule
+
 The course is divided into fifteen weeks, each with two 75 minute segments, with breaks between segments.
 In the first half of the course, we will use a hands-on design to learn foundational skills, working with data, and practical text analysis techniques.
 In the second half, we will analyze recent papers as part of learning how to design and conduct projects to maximize validity, rigor, and publication prospects.
 
-
-## Schedule
 
 ### Applied methods
 
