@@ -8,6 +8,11 @@ The topics will include a streamlined set of data science prerequisites, underst
 Text analysis continues to grow in use in macro research (e.g., firm impression management, media narratives), and has interesting emerging work in micro settings (e.g., unobtrusive measures of the big 5, emotional content of transcripts). As data access expands both at the macro (e.g., earnings call transcripts) and micro (e.g., group work tools like Slack and Microsoft Teams) levels, researchers with this skillset can ask and answer new and interesting theoretical questions.
 
 
+## Course details
+
+Because I am making these resources publicly available, the information about the course for enrolled students is in the `course` directory.
+
+
 ## Prerequisites
 
 The skill requirements assume essentially no prior training, though reasonable spreadsheet skills and some familiarity with one of the commonly--used commercial statistical systems (in either micro or macro work) is helpful.
@@ -54,12 +59,6 @@ week | topic
 13 | Dictionary methods II
 14 | Supervised learning
 15 | Unsupervised learning
-
-
-## Exams
-
-1. **Methods.** Exam I is a practical exam that you will complete and submit by March 13 at 5p.
-1. **Design.** Exam II is a comps-style exam that is likely to be a two-choose-one format. You will take this exam during the final exam period.
 
 
 ## Materials
@@ -131,14 +130,3 @@ Jason T. Kiley is an Assistant Professor and Spears Fellow at Oklahoma State Uni
 His research examines the interplay of audience perceptions of firms, impression management, and their associations with outcomes, including recent publications in the Academy of Management Journal and Strategic Management Journal.
 As part of his work, he works to advance the use of software to increase the range, efficiency, and rigor of conducting empirical research.
 He is a co-organizer of the annual AOM Content Analysis PDW, and his published and in-progress work often uses state-of-the-art content analysis techniques, including recent work with semantic text analysis and machine learning.
-
-
-## Course details
-
-|  |  |
-------|----------
-University | Oklahoma State University
-Semester | Spring 2020
-Schedule | Thursday 2p-4:45p
-Classroom | GAB 435
-CRN | 31214
