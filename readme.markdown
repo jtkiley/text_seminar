@@ -79,7 +79,7 @@ If you encounter issues, get as far as you can, and we will work through them in
 
 ### Install software
 
-1. Install [Anaconda, Python 3.7 version](https://www.anaconda.com/distribution/).
+1. Install [Anaconda, Python 3.8 version](https://www.anaconda.com/distribution/).
 1. (optional, but encouraged) Install Microsoft Visual Studio Code. The Anaconda installer asks if you would like to install it.
 1. (experts-only alternative) Install miniconda instead of the GUI version. While there are direct download versions, you would typically use a package manager (e.g., brew on macOS, apt on Ubuntu). Similarly, you could install VS Code with your package manager as well.
 
@@ -93,26 +93,20 @@ If you encounter issues, get as far as you can, and we will work through them in
 1. Back in the import popup, the environment name should be filled in automatically from the file, `tapp` in this case. Click Import.
 1. Wait for the packages for the environment to be downloaded and installed. This could take a few minutes.
 
-**Note:** there is also a file named `environment_full.yml`.
-This file is much more specific about particular software versions, and it is largely specific to both macOS and particular hardware.
-I include it for documentation reasons, but you should generally use the more general (i.e. compatible) `environment.yml`.
 
-
-### Install the Jupyter Lab Extension for Plot.ly
+### Install the Jupyter Lab Extension for Plotly
 
 1. Open a terminal (on Windows, use the prompt labeled either "Anaconda Prompt" or "Anaconda (64-bit)" in the start menu).
 1. Activate the `tapp` environment using the command `conda activate tapp`.
 1. Install the extensions using these commands:
 
 ```
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
-jupyter labextension install jupyterlab-plotly@1.4.0 --no-build
-jupyter labextension install plotlywidget@1.4.0 --no-build
-jupyter lab build
+jupyter labextension install jupyterlab-plotly@4.14.3
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.14.3
 
 ```
 
-**Note:** On my desktop, the last command takes about six minutes to complete, so give it time. If you see any errors relating to memory, you may need to use some additional commands, shown in the [plot.ly getting started](https://plot.ly/python/getting-started/) document. I did not need anything other than the commands above, though.
+**Note:** On my (fast) desktop, these commands take about four minutes to complete, so give it time.
 
 
 ### Install TextBlob text corpora and spacy word models.
