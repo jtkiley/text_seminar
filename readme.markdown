@@ -52,13 +52,12 @@ week | topic
 week | topic
 ---|--------
 8  | Text analysis project design
-9  | **No class.** Spring break
-10 | Qualitative
-11 | Metadata and human coding
-12 | Dictionary methods I
-13 | Dictionary methods II
-14 | Supervised learning
-15 | Unsupervised learning
+9 | Qualitative
+10 | Metadata and human coding
+11 | Dictionary methods I
+12 | Dictionary methods II
+13 | Supervised learning
+14 | Unsupervised learning
 
 
 ## Materials
